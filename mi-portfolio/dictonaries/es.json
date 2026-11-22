@@ -11,9 +11,9 @@
         "welcome": "¡Bienvenido a mi portfolio personal!",
         "description": "Me llamo Norbert, soy desarrollador de software Full stack con pasión por crear soluciones innovadoras y eficientes. Me encanta explorar nuevas tecnologías y mejorar la experiencia del usuario a través de un código limpio y un diseño moderno.",
         "expierence": "Trayectoria Profesional",
-        "expierence_text":"",
-        "habilities":"Habilidades",
-        "habilities_text":""
+        "expierence_text": "",
+        "habilities": "Habilidades",
+        "habilities_text": ""
     },
     "home": {
         "title": "Norbert Aguilera",
@@ -173,7 +173,12 @@
                     "Organización de charlas y eventos (HackEPS)",
                     "2º lugar en la 7ª edición de HackEPS"
                 ],
-                "technologies": ["Networking", "Gestión de Eventos", "Hackathons", "Patrocinios"]
+                "technologies": [
+                    "Networking",
+                    "Gestión de Eventos",
+                    "Hackathons",
+                    "Patrocinios"
+                ]
             },
             {
                 "id": "entrenador-piragueismo",
@@ -189,7 +194,11 @@
                     "Formación en seguridad acuática para menores",
                     "Desarrollo de habilidades personales como entrenador"
                 ],
-                "technologies": ["Gestión de Grupos", "Seguridad Acuática", "Liderazgo"]
+                "technologies": [
+                    "Gestión de Grupos",
+                    "Seguridad Acuática",
+                    "Liderazgo"
+                ]
             },
             {
                 "id": "erasmus-italia",
@@ -205,7 +214,12 @@
                     "Trabajo en equipo multicultural",
                     "Aplicación práctica de conocimientos académicos"
                 ],
-                "technologies": ["Python", "Odoo ERP", "PostgreSQL", "Linux"]
+                "technologies": [
+                    "Python",
+                    "Odoo ERP",
+                    "PostgreSQL",
+                    "Linux"
+                ]
             },
             {
                 "id": "practicas-ajuntament",
@@ -221,7 +235,12 @@
                     "Soporte técnico a departamentos administrativos",
                     "Implementación de soluciones IT para administración local"
                 ],
-                "technologies": ["Java", "SQL", "PostgreSQL", ".NET"]
+                "technologies": [
+                    "Java",
+                    "SQL",
+                    "PostgreSQL",
+                    ".NET"
+                ]
             },
             {
                 "id": "promotor-comercial",
@@ -237,7 +256,10 @@
                     "Registro de nuevos clientes",
                     "Atención al cliente y resolución de dudas"
                 ],
-                "technologies": ["Atención al Cliente", "Demostración de Software"]
+                "technologies": [
+                    "Atención al Cliente",
+                    "Demostración de Software"
+                ]
             },
             {
                 "id": "monitor-rafting",
@@ -253,7 +275,11 @@
                     "Certificación CIATE de Técnico de Deporte de Base",
                     "Capacitación en técnicas de rescate"
                 ],
-                "technologies": ["Seguridad Acuática", "Gestión de Riesgos", "Liderazgo"]
+                "technologies": [
+                    "Seguridad Acuática",
+                    "Gestión de Riesgos",
+                    "Liderazgo"
+                ]
             },
             {
                 "id": "practicas-fundacio",
@@ -269,7 +295,12 @@
                     "Soporte técnico a usuarios",
                     "Gestión de bases de datos"
                 ],
-                "technologies": ["Linux", "Redes", "Administración de Sistemas", "MySQL"]
+                "technologies": [
+                    "Linux",
+                    "Redes",
+                    "Administración de Sistemas",
+                    "MySQL"
+                ]
             },
             {
                 "id": "educador-ambiental",
@@ -285,7 +316,11 @@
                     "Gestión de inscripciones y registro de ciudadanos",
                     "Sensibilización sobre sostenibilidad"
                 ],
-                "technologies": ["Educación Ambiental", "Sostenibilidad", "Gestión de Programas"]
+                "technologies": [
+                    "Educación Ambiental",
+                    "Sostenibilidad",
+                    "Gestión de Programas"
+                ]
             }
         ]
     }

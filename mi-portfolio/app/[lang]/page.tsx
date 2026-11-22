@@ -32,20 +32,6 @@ export default async function Home({
             </p>
           </div>
 
-          {/* Enlace Blog */}
-          <div className="group cursor-pointer">
-            <div className="flex items-center gap-2 mb-1">
-              <div className="w-6 h-6 bg-gray-200 dark:bg-gray-700 rounded-full flex items-center justify-center text-[10px] font-bold text-text-muted">WEB</div>
-              <span className="text-xs text-text-muted truncate">blog.norbert.com</span>
-            </div>
-            <a href="https://blog.norbert.com" target="_blank" className="text-xl text-blue-600 dark:text-blue-400 group-hover:underline block mb-1">
-              {dict.home.blog_link}
-            </a>
-            <p className="text-sm text-text-muted leading-relaxed pr-4">
-              {dict.home.blog_desc}
-            </p>
-          </div>
-
           {/* Enlace Experiencia */}
           <div className="group cursor-pointer">
             <div className="flex items-center gap-2 mb-1">

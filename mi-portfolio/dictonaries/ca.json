@@ -11,9 +11,9 @@
         "welcome": "Benvingut al meu portfolio personal!",
         "description": "Em dic Norbert, sóc desenvolupador de software Full stack amb passió per crear solucions innovadores i eficients. M'encanta explorar noves tecnologies i millorar l'experiència de l'usuari a través d'un codi net i un disseny modern.",
         "expierence": "Trajectòria Professional",
-        "expierence_text":"",
-        "habilities":"Habilitats",
-        "habilities_text":""
+        "expierence_text": "",
+        "habilities": "Habilitats",
+        "habilities_text": ""
     },
     "home": {
         "title": "Norbert Aguilera",
@@ -173,7 +173,12 @@
                     "Organització de xerrades i events (HackEPS)",
                     "2º lloc a la 7ª edició de HackEPS"
                 ],
-                "technologies": ["Networking", "Gestió d'Events", "Hackathons", "Patrocinis"]
+                "technologies": [
+                    "Networking",
+                    "Gestió d'Events",
+                    "Hackathons",
+                    "Patrocinis"
+                ]
             },
             {
                 "id": "entrenador-piragueismo",
@@ -189,7 +194,11 @@
                     "Formació en seguretat acuàtica per a menors",
                     "Desenvolupament de habilitats personals com a entrenador"
                 ],
-                "technologies": ["Gestió de Grups", "Seguretat Acuàtica", "Liderazgo"]
+                "technologies": [
+                    "Gestió de Grups",
+                    "Seguretat Acuàtica",
+                    "Liderazgo"
+                ]
             },
             {
                 "id": "erasmus-italia",
@@ -205,7 +214,12 @@
                     "Treball en equip multicultural",
                     "Aplicació pràctica de coneixements acadèmics"
                 ],
-                "technologies": ["Python", "Odoo ERP", "PostgreSQL", "Linux"]
+                "technologies": [
+                    "Python",
+                    "Odoo ERP",
+                    "PostgreSQL",
+                    "Linux"
+                ]
             },
             {
                 "id": "practicas-ajuntament",
@@ -221,7 +235,12 @@
                     "Suport tècnic als departaments administratius",
                     "Implementació de solucions IT per a administració local"
                 ],
-                "technologies": ["Java", "SQL", "PostgreSQL", ".NET"]
+                "technologies": [
+                    "Java",
+                    "SQL",
+                    "PostgreSQL",
+                    ".NET"
+                ]
             },
             {
                 "id": "promotor-comercial",
@@ -237,7 +256,10 @@
                     "Registre de nous clients",
                     "Atenció al client i resolució de dubtes"
                 ],
-                "technologies": ["Atenció al Client", "Demostració de Software"]
+                "technologies": [
+                    "Atenció al Client",
+                    "Demostració de Software"
+                ]
             },
             {
                 "id": "monitor-rafting",
@@ -253,7 +275,11 @@
                     "Certificació CIATE de Tècnic de Deporte de Base",
                     "Capacitació en tècniques de rescat"
                 ],
-                "technologies": ["Seguretat Acuàtica", "Gestió de Riscos", "Liderazgo"]
+                "technologies": [
+                    "Seguretat Acuàtica",
+                    "Gestió de Riscos",
+                    "Liderazgo"
+                ]
             },
             {
                 "id": "practicas-fundacio",
@@ -269,7 +295,12 @@
                     "Suport tècnic als usuaris",
                     "Gestió de bases de dades"
                 ],
-                "technologies": ["Linux", "Xarxes", "Administració de Sistemes", "MySQL"]
+                "technologies": [
+                    "Linux",
+                    "Xarxes",
+                    "Administració de Sistemes",
+                    "MySQL"
+                ]
             },
             {
                 "id": "educador-ambiental",
@@ -285,7 +316,11 @@
                     "Gestió d'inscripcions i registre de ciutadans",
                     "Sensibilització sobre sostenibilitat"
                 ],
-                "technologies": ["Educació Ambiental", "Sostenibilitat", "Gestió de Programes"]
+                "technologies": [
+                    "Educació Ambiental",
+                    "Sostenibilitat",
+                    "Gestió de Programes"
+                ]
             }
         ]
     }

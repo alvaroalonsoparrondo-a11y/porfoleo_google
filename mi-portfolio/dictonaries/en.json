@@ -11,9 +11,9 @@
         "welcome": "Welcome to my personal portfolio!",
         "description": "My name is Norbert, I am a Full stack software developer passionate about creating innovative and efficient solutions. I love exploring new technologies and improving user experience through clean code and modern design.",
         "expierence": "Professional Experience",
-        "expierence_text":"",
-        "habilities":"Skills",
-        "habilities_text":""
+        "expierence_text": "",
+        "habilities": "Skills",
+        "habilities_text": ""
     },
     "home": {
         "title": "Norbert Aguilera",
@@ -172,7 +172,12 @@
                     "Organization of talks and events (HackEPS)",
                     "2nd place in the 7th edition of HackEPS"
                 ],
-                "technologies": ["Networking", "Event Management", "Hackathons", "Sponsorships"]
+                "technologies": [
+                    "Networking",
+                    "Event Management",
+                    "Hackathons",
+                    "Sponsorships"
+                ]
             },
             {
                 "id": "entrenador-piragueismo",
@@ -188,7 +193,11 @@
                     "Water safety training for minors",
                     "Development of personal skills as a coach"
                 ],
-                "technologies": ["Group Management", "Water Safety", "Leadership"]
+                "technologies": [
+                    "Group Management",
+                    "Water Safety",
+                    "Leadership"
+                ]
             },
             {
                 "id": "erasmus-italia",
@@ -204,7 +213,12 @@
                     "Work in multicultural team",
                     "Practical application of academic knowledge"
                 ],
-                "technologies": ["Python", "Odoo ERP", "PostgreSQL", "Linux"]
+                "technologies": [
+                    "Python",
+                    "Odoo ERP",
+                    "PostgreSQL",
+                    "Linux"
+                ]
             },
             {
                 "id": "practicas-ajuntament",
@@ -220,7 +234,12 @@
                     "Technical support to administrative departments",
                     "Implementation of IT solutions for local administration"
                 ],
-                "technologies": ["Java", "SQL", "PostgreSQL", ".NET"]
+                "technologies": [
+                    "Java",
+                    "SQL",
+                    "PostgreSQL",
+                    ".NET"
+                ]
             },
             {
                 "id": "promotor-comercial",
@@ -236,7 +255,10 @@
                     "Registration of new customers",
                     "Customer service and issue resolution"
                 ],
-                "technologies": ["Customer Service", "Software Demonstration"]
+                "technologies": [
+                    "Customer Service",
+                    "Software Demonstration"
+                ]
             },
             {
                 "id": "monitor-rafting",
@@ -252,7 +274,11 @@
                     "CIATE Certification as Base Sports Technician",
                     "Training in rescue techniques"
                 ],
-                "technologies": ["Water Safety", "Risk Management", "Leadership"]
+                "technologies": [
+                    "Water Safety",
+                    "Risk Management",
+                    "Leadership"
+                ]
             },
             {
                 "id": "practicas-fundacio",
@@ -268,7 +294,12 @@
                     "Technical support to users",
                     "Database management"
                 ],
-                "technologies": ["Linux", "Networks", "Systems Administration", "MySQL"]
+                "technologies": [
+                    "Linux",
+                    "Networks",
+                    "Systems Administration",
+                    "MySQL"
+                ]
             },
             {
                 "id": "educador-ambiental",
@@ -284,7 +315,11 @@
                     "Management of registrations and citizen records",
                     "Awareness on sustainability"
                 ],
-                "technologies": ["Environmental Education", "Sustainability", "Program Management"]
+                "technologies": [
+                    "Environmental Education",
+                    "Sustainability",
+                    "Program Management"
+                ]
             }
         ]
     }

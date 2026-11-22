@@ -76,7 +76,7 @@ export default async function ContactPage({
 
             {/* Direct Email */}
             <a
-              href="mailto:norbert.aguilera@example.com"
+              href="mailto:naguileralavalira@gmail.com"
               className="flex items-center gap-4 p-4 border border-border rounded-lg hover:bg-input-bg transition-colors group"
             >
               <div className="w-10 h-10 flex items-center justify-center bg-red-100 dark:bg-red-900 rounded-lg group-hover:scale-110 transition-transform">
