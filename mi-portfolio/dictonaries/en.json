@@ -2,7 +2,7 @@
     "header": {
         "home": "Home",
         "projects": "Projects",
-        "tecnologies": "Tecnologies",
+        "tecnologies": "Technologies",
         "about": "About",
         "contact": "Contact",
         "iaMode": "IA mode"
@@ -12,9 +12,8 @@
         "description": "My name is Norbert, I am a Full stack software developer passionate about creating innovative and efficient solutions. I love exploring new technologies and improving user experience through clean code and modern design.",
         "expierence": "Professional Experience",
         "expierence_text":"",
-        "habilities":"Habilities",
+        "habilities":"Skills",
         "habilities_text":""
-
     },
     "home": {
         "title": "Norbert Aguilera",
@@ -151,5 +150,142 @@
         "github": "GitHub",
         "email_direct": "Direct email",
         "calendar": "Schedule a meeting"
+    },
+    "experience": {
+        "title": "Professional Experience",
+        "subtitle": "My work experience and training",
+        "present": "Present",
+        "achievements": "Main responsibilities",
+        "technologies": "Technologies",
+        "roles": [
+            {
+                "id": "leidahack",
+                "company": "LleidaHack",
+                "role": "Contact Manager",
+                "startDate": "2024",
+                "endDate": "Present",
+                "logo": "/images/leidahack.png",
+                "description": "Leadership and business relations. Association of computer science students.",
+                "achievements": [
+                    "Responsible for securing new sponsors",
+                    "Management of business relationships for tech events",
+                    "Organization of talks and events (HackEPS)",
+                    "2nd place in the 7th edition of HackEPS"
+                ],
+                "technologies": ["Networking", "Event Management", "Hackathons", "Sponsorships"]
+            },
+            {
+                "id": "entrenador-piragueismo",
+                "company": "Club Cadí Canoe-Kayak",
+                "role": "Kayak Coach for Children",
+                "startDate": "August 2023",
+                "endDate": "Present",
+                "logo": "/images/cadí-kayak.png",
+                "description": "Training and supervision of kayaking activities for minors.",
+                "achievements": [
+                    "Supervision of kayaking and cycling activities",
+                    "CIATE Certification (Base Sports Technician)",
+                    "Water safety training for minors",
+                    "Development of personal skills as a coach"
+                ],
+                "technologies": ["Group Management", "Water Safety", "Leadership"]
+            },
+            {
+                "id": "erasmus-italia",
+                "company": "EMAN SRL",
+                "role": "Internship Student (Erasmus+)",
+                "startDate": "June 2024",
+                "endDate": "July 2024",
+                "logo": "/images/eman-italia.png",
+                "description": "International internship in computer science. Italy.",
+                "achievements": [
+                    "Development of solutions with Odoo ERP",
+                    "International experience in professional IT environment",
+                    "Work in multicultural team",
+                    "Practical application of academic knowledge"
+                ],
+                "technologies": ["Python", "Odoo ERP", "PostgreSQL", "Linux"]
+            },
+            {
+                "id": "practicas-ajuntament",
+                "company": "City Hall of La Seu d'Urgell",
+                "role": "Internship Student",
+                "startDate": "October 2023",
+                "endDate": "February 2024",
+                "logo": "/images/ajuntament-seu.png",
+                "description": "Internship in IT Department of City Hall.",
+                "achievements": [
+                    "Development and maintenance of municipal applications",
+                    "Management of relational databases",
+                    "Technical support to administrative departments",
+                    "Implementation of IT solutions for local administration"
+                ],
+                "technologies": ["Java", "SQL", "PostgreSQL", ".NET"]
+            },
+            {
+                "id": "promotor-comercial",
+                "company": "Support and Demos - Woonivers",
+                "role": "Commercial Promoter",
+                "startDate": "July 2024",
+                "endDate": "August 2024",
+                "logo": "/images/woonivers.png",
+                "description": "Customer advice on application registration and use.",
+                "achievements": [
+                    "Customer guidance on application usage",
+                    "Demonstrations of main features",
+                    "Registration of new customers",
+                    "Customer service and issue resolution"
+                ],
+                "technologies": ["Customer Service", "Software Demonstration"]
+            },
+            {
+                "id": "monitor-rafting",
+                "company": "Parc del Segre S.A.",
+                "role": "Rafting and Kayak Monitor",
+                "startDate": "June 2022",
+                "endDate": "September 2022",
+                "logo": "/images/parc-segre.png",
+                "description": "Monitoring of rafting, kayaking and cycling activities.",
+                "achievements": [
+                    "Supervision of rafting and kayak activities",
+                    "Safety management in water activities",
+                    "CIATE Certification as Base Sports Technician",
+                    "Training in rescue techniques"
+                ],
+                "technologies": ["Water Safety", "Risk Management", "Leadership"]
+            },
+            {
+                "id": "practicas-fundacio",
+                "company": "Fundació Sant Hospital",
+                "role": "Internship Student",
+                "startDate": "February 2021",
+                "endDate": "May 2021",
+                "logo": "/images/fundacio-sant.png",
+                "description": "Internship in IT Department. La Seu d'Urgell.",
+                "achievements": [
+                    "Maintenance of IT infrastructure in healthcare environment",
+                    "System and network administration",
+                    "Technical support to users",
+                    "Database management"
+                ],
+                "technologies": ["Linux", "Networks", "Systems Administration", "MySQL"]
+            },
+            {
+                "id": "educador-ambiental",
+                "company": "Mancomunitat d'Escombraries de l'Urgell",
+                "role": "Environmental Educator",
+                "startDate": "April 2022",
+                "endDate": "May 2022",
+                "logo": "/images/mancomunitat.png",
+                "description": "Registration of citizens in recycling program.",
+                "achievements": [
+                    "Promotion of recycling programs",
+                    "Environmental education for the community",
+                    "Management of registrations and citizen records",
+                    "Awareness on sustainability"
+                ],
+                "technologies": ["Environmental Education", "Sustainability", "Program Management"]
+            }
+        ]
     }
 }

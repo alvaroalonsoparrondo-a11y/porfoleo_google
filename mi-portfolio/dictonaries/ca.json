@@ -14,7 +14,6 @@
         "expierence_text":"",
         "habilities":"Habilitats",
         "habilities_text":""
-
     },
     "home": {
         "title": "Norbert Aguilera",
@@ -152,5 +151,142 @@
         "github": "GitHub",
         "email_direct": "Email directe",
         "calendar": "Agendar reunió"
+    },
+    "experience": {
+        "title": "Trajectòria Professional",
+        "subtitle": "La meva experiència laboral i formativa",
+        "present": "Actualitat",
+        "achievements": "Responsabilitats principals",
+        "technologies": "Tecnologies",
+        "roles": [
+            {
+                "id": "leidahack",
+                "company": "LleidaHack",
+                "role": "Responsable de contactes",
+                "startDate": "2024",
+                "endDate": "Actualitat",
+                "logo": "/images/leidahack.png",
+                "description": "Lideratge i relacions amb empreses. Associació d'estudiants d'informàtica.",
+                "achievements": [
+                    "Responsable de conseguir nous patrocinis",
+                    "Gestió de relacions amb empreses per a events tecnològics",
+                    "Organització de xerrades i events (HackEPS)",
+                    "2º lloc a la 7ª edició de HackEPS"
+                ],
+                "technologies": ["Networking", "Gestió d'Events", "Hackathons", "Patrocinis"]
+            },
+            {
+                "id": "entrenador-piragueismo",
+                "company": "Club Cadí Canoe-Kayak",
+                "role": "Entrenador de Piragüisme per a nens",
+                "startDate": "Agost 2023",
+                "endDate": "Actualitat",
+                "logo": "/images/cadí-kayak.png",
+                "description": "Entrenament i supervisió d'activitats de piragüisme per a menors.",
+                "achievements": [
+                    "Supervisió d'activitats de piragüisme i cicloturisme",
+                    "Certificació CIATE (Tècnic de Deporte de Base)",
+                    "Formació en seguretat acuàtica per a menors",
+                    "Desenvolupament de habilitats personals com a entrenador"
+                ],
+                "technologies": ["Gestió de Grups", "Seguretat Acuàtica", "Liderazgo"]
+            },
+            {
+                "id": "erasmus-italia",
+                "company": "EMAN SRL",
+                "role": "Estudiant en pràctiques (Erasmus+)",
+                "startDate": "Juny 2024",
+                "endDate": "Juliol 2024",
+                "logo": "/images/eman-italia.png",
+                "description": "Pràctiques internacionals en l'àmbit de l'informàtica. Itàlia.",
+                "achievements": [
+                    "Desenvolupament de solucions amb Odoo ERP",
+                    "Experiència internacional en entorn IT professional",
+                    "Treball en equip multicultural",
+                    "Aplicació pràctica de coneixements acadèmics"
+                ],
+                "technologies": ["Python", "Odoo ERP", "PostgreSQL", "Linux"]
+            },
+            {
+                "id": "practicas-ajuntament",
+                "company": "Ajuntament de la Seu d'Urgell",
+                "role": "Estudiant en pràctiques",
+                "startDate": "Octubre 2023",
+                "endDate": "Febrer 2024",
+                "logo": "/images/ajuntament-seu.png",
+                "description": "Pràctiques al Departament IT de l'Ajuntament.",
+                "achievements": [
+                    "Desenvolupament i manteniment d'aplicacions municipals",
+                    "Gestió de bases de dades relacionals",
+                    "Suport tècnic als departaments administratius",
+                    "Implementació de solucions IT per a administració local"
+                ],
+                "technologies": ["Java", "SQL", "PostgreSQL", ".NET"]
+            },
+            {
+                "id": "promotor-comercial",
+                "company": "Suport i Dëmos - Woonivers",
+                "role": "Promotor Comercial",
+                "startDate": "Juliol 2024",
+                "endDate": "Agost 2024",
+                "logo": "/images/woonivers.png",
+                "description": "Assessorament a clients en registre i ús d'aplicació.",
+                "achievements": [
+                    "Assessorament en ús del aplicatiu",
+                    "Demostracions de funcionalitats principals",
+                    "Registre de nous clients",
+                    "Atenció al client i resolució de dubtes"
+                ],
+                "technologies": ["Atenció al Client", "Demostració de Software"]
+            },
+            {
+                "id": "monitor-rafting",
+                "company": "Parc del Segre S.A.",
+                "role": "Monitor de Rafting i Kayak",
+                "startDate": "Juny 2022",
+                "endDate": "Setembre 2022",
+                "logo": "/images/parc-segre.png",
+                "description": "Monitorització d'activitats de rafting, piragüisme i cicloturisme.",
+                "achievements": [
+                    "Supervisió d'activitats de rafting i kayak",
+                    "Gestió de seguretat en activitats acuàtiques",
+                    "Certificació CIATE de Tècnic de Deporte de Base",
+                    "Capacitació en tècniques de rescat"
+                ],
+                "technologies": ["Seguretat Acuàtica", "Gestió de Riscos", "Liderazgo"]
+            },
+            {
+                "id": "practicas-fundacio",
+                "company": "Fundació Sant Hospital",
+                "role": "Estudiant en pràctiques",
+                "startDate": "Febrer 2021",
+                "endDate": "Maig 2021",
+                "logo": "/images/fundacio-sant.png",
+                "description": "Pràctiques al Departament IT. La Seu d'Urgell.",
+                "achievements": [
+                    "Manteniment de la infraestructura IT en entorn sanitari",
+                    "Administració de sistemes i xarxes",
+                    "Suport tècnic als usuaris",
+                    "Gestió de bases de dades"
+                ],
+                "technologies": ["Linux", "Xarxes", "Administració de Sistemes", "MySQL"]
+            },
+            {
+                "id": "educador-ambiental",
+                "company": "Mancomunitat d'Escombraries de l'Urgell",
+                "role": "Educador Medioambiental",
+                "startDate": "Abril 2022",
+                "endDate": "Maig 2022",
+                "logo": "/images/mancomunitat.png",
+                "description": "Inscripció de ciutadans en el programa de reciclatge.",
+                "achievements": [
+                    "Promoció de programes de reciclatge",
+                    "Educació ambiental a la comunitat",
+                    "Gestió d'inscripcions i registre de ciutadans",
+                    "Sensibilització sobre sostenibilitat"
+                ],
+                "technologies": ["Educació Ambiental", "Sostenibilitat", "Gestió de Programes"]
+            }
+        ]
     }
 }

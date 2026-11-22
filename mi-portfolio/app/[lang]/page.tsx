@@ -1,4 +1,5 @@
 import { getDictionary } from "@/lib/dictonary";
+import Link from "next/link";
 
 type Locale = "es" | "en" | "ca";
 
@@ -51,9 +52,9 @@ export default async function Home({
               <div className="w-6 h-6 bg-gray-200 dark:bg-gray-700 rounded-full flex items-center justify-center text-[10px] font-bold text-text-muted">EXP</div>
               <span className="text-xs text-text-muted truncate">norbert-aguilera.com &gt; experience</span>
             </div>
-            <a href="/experience" className="text-xl text-blue-600 dark:text-blue-400 group-hover:underline block mb-1">
+            <Link href={`/${lang}/experience`} className="text-xl text-blue-600 dark:text-blue-400 group-hover:underline block mb-1">
               {dict.home.experience_link}
-            </a>
+            </Link>
             <p className="text-sm text-text-muted leading-relaxed pr-4">
               {dict.home.experience_desc}
             </p>

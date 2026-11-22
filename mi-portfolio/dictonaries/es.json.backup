@@ -1,0 +1,212 @@
+{
+    "header": {
+        "home": "Inicio",
+        "projects": "Proyectos",
+        "tecnologies": "Tecnologías",
+        "about": "Sobre mí",
+        "contact": "Contacto",
+        "iaMode": "Modo IA"
+    },
+    "ia": {
+        "welcome": "¡Bienvenido a mi portfolio personal!",
+        "description": "Me llamo Norbert, soy desarrollador de software Full stack con pasión por crear soluciones innovadoras y eficientes. Me encanta explorar nuevas tecnologías y mejorar la experiencia del usuario a través de un código limpio y un diseño moderno.",
+        "expierence": "Trayectoria Profesional",
+        "expierence_text":"",
+        "habilities":"Habilidades",
+        "habilities_text":""
+    },
+    "home": {
+        "title": "Norbert Aguilera",
+        "description": "Desarrollador Full stack",
+        "cv_link": "Previsualizar CV (PDF)",
+        "cv_file": "/Curiculums/CV_Norbert_ESP.pdf",
+        "cv_desc": "Accede a mi currículum detallado en formato PDF para conocer mi experiencia y formación.",
+        "blog_link": "Blog Personal",
+        "blog_desc": "Artículos, tutoriales y reflexiones sobre el mundo del desarrollo y la tecnología.",
+        "experience_link": "Trayectoria Laboral",
+        "experience_desc": "Detalles sobre los proyectos en los que he participado y las empresas donde he trabajado.",
+        "education_title": "Estudios y Titulaciones",
+        "studies": [
+            "Sistemas Microinformáticos y Redes (SMR)",
+            "Diseño de Aplicaciones Multiplataforma (DAM)",
+            "Actualmente en 4º año de Ingeniería Informática",
+            "Rama en desarrollo de software",
+            "Cursos IA y de Agentes IA de Microsoft"
+        ]
+    },
+    "projects": {
+        "title": "Mis proyectos",
+        "subtitle": "Una selección de los trabajos más destacados donde he aplicado mis conocimientos de desarrollo.",
+        "details": {
+            "ciclo-bnb": {
+                "title": "CicloBnB",
+                "description": "Un proyecto para reservar bicicletas entre usuarios (al estilo Airbnb).",
+                "tecnologies": [
+                    "Android",
+                    "SQLite",
+                    "Java",
+                    "XML"
+                ],
+                "link": "https://github.com/eliasporter/CicloBnBand.git",
+                "image": "/images/cicloBnB.png"
+            },
+            "stream-sync": {
+                "title": "Stream Sync",
+                "description": "Plataforma que centraliza diferentes plataformas de streaming en una sola aplicación, usando varias APIs y gestión de usuarios y recopilación de datos.",
+                "tecnologies": [
+                    "Django",
+                    "Rest API",
+                    "Python",
+                    "HTML",
+                    "CSS",
+                    "JS",
+                    "PostgreSQL",
+                    "Tailwind",
+                    "SQLite"
+                ],
+                "link": "https://github.com/Null-Pointers2-0/JoinProject.git",
+                "image": "/images/stream_sync.png"
+            },
+            "anime-view": {
+                "title": "AnimeViewApp",
+                "description": "Aplicación para la visualización y seguimiento de animes sin hacer uso de API externa, recopilando los datos directamente mediante scraping de varias webs, gestionándolos y mostrándolos de manera clara y sencilla.",
+                "tecnologies": [
+                    "Android",
+                    "Java",
+                    "SQLite",
+                    "XML",
+                    "Python"
+                ],
+                "link": "https://github.com/NorbertAguilera/AnimeViewProve.git",
+                "image": "/images/anime_view.png"
+            },
+            "flutter-anime": {
+                "title": "Flutter Anime App",
+                "description": "App móvil desarrollada con Flutter para la exploración de contenidos de anime, gestionándolos y mostrándolos de manera clara y sencilla, usando una API para facilitar su uso.",
+                "tecnologies": [
+                    "Flutter",
+                    "Dart",
+                    "Rest API",
+                    "SQLite"
+                ],
+                "link": "https://github.com/NorbertAguilera/flutter_anime_app.git",
+                "image": "/images/flutter_anime.png"
+            },
+            "zone-lock": {
+                "title": "ZoneLock",
+                "description": "Aplicación para smartwatch para gestionar el esfuerzo que se está ejerciendo en diferentes ejercicios para tener medidas más exactas.",
+                "tecnologies": [
+                    "Kotlin",
+                    "Android",
+                    "Smartwatch",
+                    "SQLite",
+                    "Rest API"
+                ],
+                "link": "https://github.com/NorbertAguilera/ZoneLock.git",
+                "image": "/images/zone_lock.png"
+            },
+            "portfolio-google": {
+                "title": "Portfolio Estilo Google",
+                "description": "Un portfolio personal diseñado para imitar la estética de Google",
+                "tecnologies": [
+                    "Next.js",
+                    "TypeScript",
+                    "Tailwind",
+                    "Rest API"
+                ],
+                "link": "https://github.com/NorbertAguilera/porfoleo_google.git",
+                "image": "/images/portfolio_google.png"
+            }
+        }
+    },
+    "tecnologies": {
+        "title": "Tecnologías",
+        "subtitle": "Mi stack tecnológico",
+        "categories": {
+            "languages": "Lenguajes",
+            "frontend": "Frontend y Móvil",
+            "backend": "Backend y Bases de Datos",
+            "tools": "Herramientas"
+        }
+    },
+    "contact": {
+        "title": "Contacto",
+        "subtitle": "¿Tienes alguna pregunta o propuesta? Envíame un mensaje",
+        "name": "Nombre",
+        "namePlaceholder": "Tu nombre",
+        "email": "Correo electrónico",
+        "emailPlaceholder": "tu@email.com",
+        "subject": "Asunto",
+        "subjectPlaceholder": "¿De qué quieres hablar?",
+        "message": "Mensaje",
+        "messagePlaceholder": "Cuéntame más sobre tu proyecto o idea...",
+        "send": "Enviar mensaje",
+        "sending": "Enviando...",
+        "success": "¡Mensaje enviado correctamente!",
+        "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+        "required": "Este campo es obligatorio",
+        "invalidEmail": "Por favor, introduce un email válido",
+        "socialTitle": "Otras formas de contacto",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "email_direct": "Email directo",
+        "calendar": "Agendar reunión"
+    },
+    "experience": {
+        "title": "Trayectoria Profesional",
+        "subtitle": "Mi experiencia laboral y proyectos destacados",
+        "present": "Presente",
+        "achievements": "Logros destacados",
+        "technologies": "Tecnologías",
+        "roles": [
+            {
+                "id": "junior-dev",
+                "company": "Tech Startup XYZ",
+                "role": "Desarrollador Junior Full Stack",
+                "startDate": "Enero 2024",
+                "endDate": "Presente",
+                "logo": "/images/company-xyz.png",
+                "description": "Desarrollo de aplicaciones web modernas con React y Node.js",
+                "achievements": [
+                    "Implementé 5 nuevas features en la aplicación principal",
+                    "Optimicé el rendimiento de la base de datos reduciendo tiempos de consulta en 40%",
+                    "Colaboré con el equipo de diseño para mejorar la UX/UI",
+                    "Realicé code reviews y mentoría a nuevos desarrolladores"
+                ],
+                "technologies": ["React", "Node.js", "PostgreSQL", "Docker", "Git", "Tailwind CSS"]
+            },
+            {
+                "id": "intern-dev",
+                "company": "Digital Solutions Inc",
+                "role": "Pasante en Desarrollo Web",
+                "startDate": "Junio 2023",
+                "endDate": "Diciembre 2023",
+                "logo": "/images/company-digital.png",
+                "description": "Desarrollo de sitios web con Next.js y modernización de código legado",
+                "achievements": [
+                    "Desarrollé 3 landing pages responsivas con alto rendimiento",
+                    "Migrué código legacy de jQuery a React mejorando mantenibilidad",
+                    "Implementé testing unitario con Jest alcanzando 85% de cobertura",
+                    "Documenté mejores prácticas para el equipo"
+                ],
+                "technologies": ["Next.js", "JavaScript", "MongoDB", "Firebase", "Jest", "Vercel"]
+            },
+            {
+                "id": "freelance",
+                "company": "Freelance",
+                "role": "Desarrollador Web Independiente",
+                "startDate": "Marzo 2023",
+                "endDate": "Mayo 2023",
+                "logo": "/images/freelance.png",
+                "description": "Proyectos personalizados para pequeños negocios y startups",
+                "achievements": [
+                    "Completé 8 proyectos para clientes satisfechos",
+                    "Mantuve puntuación de 4.9/5 en plataformas de freelance",
+                    "Desarrollé desde diseño hasta deployment de forma independiente",
+                    "Generé ingresos estables mientras estudiaba"
+                ],
+                "technologies": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WordPress"]
+            }
+        ]
+    }
+}
