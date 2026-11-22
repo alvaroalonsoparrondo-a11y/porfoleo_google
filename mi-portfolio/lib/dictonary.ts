@@ -1,6 +1,4 @@
-import 'server-only';
-
-const dictionaries = {
+export const dictionaries = {
     es: () => import('@/dictonaries/es.json').then((module) => module.default),
     en: () => import('@/dictonaries/en.json').then((module) => module.default),
     ca: () => import('@/dictonaries/ca.json').then((module) => module.default),

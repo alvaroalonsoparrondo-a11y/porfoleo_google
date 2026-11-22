@@ -18,7 +18,7 @@
     },
     "home": {
         "title": "Norbert Aguilera",
-        "description": "Desenvolvedor Full stack",
+        "description": "Desenvolupador Full stack",
         "cv_link": "Previsualitzar CV (PDF)",
         "cv_file": "/Curiculums/CV_Norbert_CAT.pdf",
         "cv_desc": "Accedeix al meu currículum detallat en format PDF per conèixer la meva experiència i formació.",
@@ -129,5 +129,28 @@
             "backend": "Backend i Bases de Dades",
             "tools": "Eines"
         }
+    },
+    "contact": {
+        "title": "Contacte",
+        "subtitle": "Tens alguna pregunta o proposta? Envia'm un missatge",
+        "name": "Nom",
+        "namePlaceholder": "El teu nom",
+        "email": "Correu electrònic",
+        "emailPlaceholder": "el.teu@email.com",
+        "subject": "Assumpte",
+        "subjectPlaceholder": "De què vols parlar?",
+        "message": "Missatge",
+        "messagePlaceholder": "Explica'm més sobre el teu projecte o idea...",
+        "send": "Enviar missatge",
+        "sending": "Enviant...",
+        "success": "Missatge enviat correctament!",
+        "error": "Error en enviar el missatge. Si us plau, torna-ho a intentar.",
+        "required": "Aquest camp és obligatori",
+        "invalidEmail": "Si us plau, introdueix un email vàlid",
+        "socialTitle": "Altres formes de contacte",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "email_direct": "Email directe",
+        "calendar": "Agendar reunió"
     }
 }

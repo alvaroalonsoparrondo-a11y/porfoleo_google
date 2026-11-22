@@ -138,6 +138,16 @@ export default function Header({ dict, lang }: HeaderProps) {
                     >
                         {dict.tecnologies}
                     </Link>
+
+                    <Link
+                        key={'contact'}
+                        href={`/${lang}/contact`}
+                        className={`pb-3 pt-1 cursor-pointer border-b-2 transition-colors ${pathname === 'contact' ? 'text-foreground border-foreground font-medium' : 'border-transparent hover:text-foreground'
+                            }`
+                        }
+                    >
+                        {dict.contact}
+                    </Link>
                 </nav>
             </div>
         </header>

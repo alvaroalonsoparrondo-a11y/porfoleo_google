@@ -14,7 +14,6 @@
         "expierence_text":"",
         "habilities":"Habilidades",
         "habilities_text":""
-
     },
     "home": {
         "title": "Norbert Aguilera",
@@ -129,5 +128,28 @@
             "backend": "Backend y Bases de Datos",
             "tools": "Herramientas"
         }
+    },
+    "contact": {
+        "title": "Contacto",
+        "subtitle": "¿Tienes alguna pregunta o propuesta? Envíame un mensaje",
+        "name": "Nombre",
+        "namePlaceholder": "Tu nombre",
+        "email": "Correo electrónico",
+        "emailPlaceholder": "tu@email.com",
+        "subject": "Asunto",
+        "subjectPlaceholder": "¿De qué quieres hablar?",
+        "message": "Mensaje",
+        "messagePlaceholder": "Cuéntame más sobre tu proyecto o idea...",
+        "send": "Enviar mensaje",
+        "sending": "Enviando...",
+        "success": "¡Mensaje enviado correctamente!",
+        "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+        "required": "Este campo es obligatorio",
+        "invalidEmail": "Por favor, introduce un email válido",
+        "socialTitle": "Otras formas de contacto",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "email_direct": "Email directo",
+        "calendar": "Agendar reunión"
     }
 }
