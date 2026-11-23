@@ -1,7 +1,24 @@
 import { getDictionary } from "@/lib/dictonary";
+import { generatePageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 
 type Locale = "es" | "en" | "ca";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang as Locale);
+
+  return generatePageMetadata({
+    title: dict.metadata.home.title,
+    description: dict.metadata.home.description,
+    path: '',
+    locale: lang as Locale,
+  });
+}
 
 export default async function Home({
   params,

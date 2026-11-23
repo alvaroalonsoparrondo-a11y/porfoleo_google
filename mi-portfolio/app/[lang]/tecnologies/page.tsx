@@ -1,7 +1,24 @@
 import { getDictionary } from "@/lib/dictonary";
+import { generatePageMetadata } from "@/lib/metadata";
 import TechGrid from "@/components/TechGrid";
 
 type Locale = "es" | "en" | "ca";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang as Locale);
+
+  return generatePageMetadata({
+    title: dict.metadata.tecnologies.title,
+    description: dict.metadata.tecnologies.description,
+    path: '/tecnologies',
+    locale: lang as Locale,
+  });
+}
 
 export default async function TecnologiesPage({
   params,

@@ -1,7 +1,24 @@
 import { getDictionary } from "@/lib/dictonary";
+import { generatePageMetadata } from "@/lib/metadata";
 import { ContactForm } from "@/components/ContactForm";
 
 type Locale = "es" | "en" | "ca";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang as Locale);
+
+  return generatePageMetadata({
+    title: dict.metadata.contact.title,
+    description: dict.metadata.contact.description,
+    path: '/contact',
+    locale: lang as Locale,
+  });
+}
 
 export default async function ContactPage({
   params,

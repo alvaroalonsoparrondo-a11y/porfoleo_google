@@ -1,4 +1,5 @@
 import { getDictionary } from "@/lib/dictonary";
+import { generatePageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 
 type Locale = "es" | "en" | "ca";
@@ -9,6 +10,22 @@ interface Project {
   tecnologies: string[];
   link: string;
   image?: string;
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang as Locale);
+
+  return generatePageMetadata({
+    title: dict.metadata.projects.title,
+    description: dict.metadata.projects.description,
+    path: '/projects',
+    locale: lang as Locale,
+  });
 }
 
 export default async function ProjectsPage({

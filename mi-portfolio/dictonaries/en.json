@@ -322,5 +322,31 @@
                 ]
             }
         ]
+    },
+    "metadata": {
+        "home": {
+            "title": "Home",
+            "description": "Norbert Aguilera - Full Stack Developer specialized in React, Node.js, Python and modern technologies. Personal portfolio and projects."
+        },
+        "contact": {
+            "title": "Contact",
+            "description": "Get in touch with me for projects, collaborations or any inquiries about web development and technology."
+        },
+        "experience": {
+            "title": "Professional Experience",
+            "description": "My professional journey as a developer: internships in Italy with Odoo ERP, development in public administration and LleidaHack participation."
+        },
+        "projects": {
+            "title": "Projects",
+            "description": "Selection of outstanding projects: mobile apps with Flutter, web platforms with Django, and developments in Android and Next.js."
+        },
+        "tecnologies": {
+            "title": "Technologies",
+            "description": "My tech stack: Java, Python, JavaScript, React, Flutter, Django, PostgreSQL, Docker and more modern development tools."
+        },
+        "ia": {
+            "title": "AI Mode",
+            "description": "Overview with AI about my profile as a Full Stack developer, professional experience and technical skills."
+        }
     }
 }

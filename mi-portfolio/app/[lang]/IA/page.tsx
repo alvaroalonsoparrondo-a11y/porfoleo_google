@@ -1,6 +1,23 @@
 import { getDictionary } from "@/lib/dictonary";
+import { generatePageMetadata } from "@/lib/metadata";
 
 type Locale = "es" | "en" | "ca";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang as Locale);
+
+  return generatePageMetadata({
+    title: dict.metadata.ia.title,
+    description: dict.metadata.ia.description,
+    path: '/IA',
+    locale: lang as Locale,
+  });
+}
 
 export default async function IAPage({
   params,

@@ -1,4 +1,5 @@
 import { getDictionary } from "@/lib/dictonary";
+import { generatePageMetadata } from "@/lib/metadata";
 
 type Locale = "es" | "en" | "ca";
 
@@ -12,6 +13,22 @@ interface ExperienceRole {
   description: string;
   achievements: string[];
   technologies: string[];
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang as Locale);
+
+  return generatePageMetadata({
+    title: dict.metadata.experience.title,
+    description: dict.metadata.experience.description,
+    path: '/experience',
+    locale: lang as Locale,
+  });
 }
 
 export default async function ExperiencePage({
