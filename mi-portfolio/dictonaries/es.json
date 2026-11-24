@@ -10,8 +10,8 @@
     "ia": {
         "welcome": "¡Bienvenido a mi portfolio personal!",
         "description": "Me llamo Norbert, soy desarrollador de software Full stack con pasión por crear soluciones innovadoras y eficientes. Me encanta explorar nuevas tecnologías y mejorar la experiencia del usuario a través de un código limpio y un diseño moderno.",
-        "expierence": "Trayectoria Profesional",
-        "expierence_text":"",
+        "experience": "Trayectoria Profesional",
+        "experience_text":"",
         "habilities":"Habilidades",
         "habilities_text":""
 
